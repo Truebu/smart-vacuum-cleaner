@@ -1,0 +1,149 @@
+:root {
+  --dirt: #ead0a8;
+  --regular-dirt: #b69f66;
+  --medium-dirt: #76552b;
+  --high-dirt: #402905;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #a9f8f3;
+  color: #111d1c;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+input[type="button"][disabled] {
+  color: gray;
+  opacity: 0.5;
+}
+
+input[type="button"][disabled]:hover {
+  border: none;
+  background: #2f4350;
+  cursor: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+section {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.btn {
+  margin: 0.4rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background: #4b708a;
+  cursor: pointer;
+  color: #c1f3f3;
+  border: 1px solid transparent;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background: #002039;
+  border: 1px solid white;
+}
+
+.instructions-button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.trail-container {
+  padding: 1rem;
+}
+
+.route-container {
+  display: flex;
+}
+
+.route-item {
+  width: 50%;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: none;
+  border-collapse: collapse;
+}
+
+.cuadros {
+  width: 10%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.celda {
+  height: 50px;
+  text-align: center;
+}
+
+.a {
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--high-dirt);
+  color: transparent;
+}
+
+.b {
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--medium-dirt);
+  color: transparent;
+}
+
+.c {
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  background-color: var(--regular-dirt);
+}
+
+.d {
+  color: transparent;
+  background-color: white;
+}
+
+.agente {
+  background-image: url("../img/aspiradora.png");
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  transition: all 500ms ease 500ms;
+}
